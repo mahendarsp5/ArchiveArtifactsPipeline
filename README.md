@@ -1,0 +1,2 @@
+# ArchiveArtifactsPipeline
+  When there are test failures, it is often useful to grab built artifacts from Jenkins for local analysis and investigation. This is made practical by Jenkins’s built-in support for storing "artifacts", files generated during the execution of the Pipeline.  This is easily done with the archiveArtifacts step and a file-globbing expression, as is demonstrated in the example
